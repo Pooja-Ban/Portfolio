@@ -21,4 +21,4 @@ I am passionate about web development and always eager to learn and grow.
 
 ---
 
-✨ Thank you for visiting!
+✨ Thank you for visiting!!
