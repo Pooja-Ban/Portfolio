@@ -1,0 +1,157 @@
+/* ===== BASIC RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #ffe6f0; /* light pink */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: #c2185b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* ===== NAVBAR ===== */
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 15px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  margin-top: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.section h2 {
+  color: #a0004d;
+  font-size: 24px;
+  margin-bottom: 15px;
+  border-left: 5px solid #f8a4c4;
+  padding-left: 10px;
+}
+
+/* ===== PROFILE IMAGE ===== */
+.profile-img {
+  float: left;
+  width: 180px;
+  height: 220px;
+  margin-right: 30px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid #c2185b;
+}
+
+.intro {
+  overflow: hidden;
+}
+
+.intro h2 {
+  color: #880e4f;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.intro p {
+  font-size: 17px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+/* ===== LIST STYLING ===== */
+.section ul {
+  padding-left: 20px;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #4d004d;
+}
+
+/* ===== SKILLS ===== */
+.skills {
+  list-style: square;
+}
+
+/* ===== CERTIFICATIONS ===== */
+.certificates-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.certificate-card {
+  width: 180px;
+  background-color: #fff0f5;
+  border: 1.5px solid #ffb6c1;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.certificate-card img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.certificate-card p {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #880e4f;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  background-color: #c2185b;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
+}
